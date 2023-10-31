@@ -58,4 +58,4 @@ jobs:
           app-name: 'telacad'
           slot-name: 'Production'
           publish-profile: ${{ secrets.AZUREAPPSERVICE_PUBLISHPROFILE_1699F102495E49E1A30007634C6241E9 }}
-          package: build
+          package: .
